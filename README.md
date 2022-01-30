@@ -22,9 +22,53 @@ Follow below the goals for this module:
 
 ## Results & Code
 
+## Objective 1: Add Tectonic Plate Data
 
+* The tectonic plate data is added as a second layer group 
+* The tectonic plate data is added to the overlay object 
+* The d3.json() callback is working and does the following: 
+   * The tectonic plate data is passed to the geoJSON() layer
+   * The geoJSON() layer adds color and width to the tectonic plate lines
+   * The tectonic layer group variable is added to the map
+* The earthquake data and tectonic plate data displayed on the map when the page loads 
 
+![](https://github.com/DougUOT/Mapping_Earthquakes/blob/main/Resources/Images/Capture13_1_1.PNG)
+![](https://github.com/DougUOT/Mapping_Earthquakes/blob/main/Resources/Images/Capture13_1_2.PNG)
+![](https://github.com/DougUOT/Mapping_Earthquakes/blob/main/Resources/Images/Capture13_1_3.PNG)
 
-## Summary
+Tectonic Plate layer (Streets layer view):
+![](https://github.com/DougUOT/Mapping_Earthquakes/blob/main/Resources/Images/Capture13_1_4a.PNG)
 
-Also We deployed a sample project to GitHub Pages available on https://douguot.github.io/DougUOT.githib.io-Mapping_Earthquake_Diploy/ in order to share our live projects with colleagues, potential employers and the wider community of programmers as well.
+Tectonic Plate and Earthquakes layer (Streets layer view):
+![](https://github.com/DougUOT/Mapping_Earthquakes/blob/main/Resources/Images/Capture13_1_4.PNG)
+
+## Objective 2: Add Major Earthquake Data
+
+* The major earthquake data is added as a third layer group 
+* The major earthquake data is added to the overlay object 
+* The d3.json() callback is working and does the following: (
+   * Sets the color and diameter of each earthquake.
+   * The major earthquake data is passed to the geoJSON() layer.
+   * The geoJSON() layer creates a circle for each major earthquake, and adds a popup for each circle to display the magnitude and location of the earthquake
+   * The major earthquake layer group variable is added to the map
+* All the earthquake data and tectonic plate data are displayed on the map when the page loads and the datasets can be toggled on or off 
+
+![](https://github.com/DougUOT/Mapping_Earthquakes/blob/main/Resources/Images/Capture13_2_1.PNG)
+![](https://github.com/DougUOT/Mapping_Earthquakes/blob/main/Resources/Images/Capture13_2_2.PNG)
+![](https://github.com/DougUOT/Mapping_Earthquakes/blob/main/Resources/Images/Capture13_2_3.PNG)
+![](https://github.com/DougUOT/Mapping_Earthquakes/blob/main/Resources/Images/Capture13_2_4.PNG)
+
+Tectonic Plate, Earthquakes and major Earthquakes layer (Satellite layer view):
+![](https://github.com/DougUOT/Mapping_Earthquakes/blob/main/Resources/Images/Capture13_2_5.PNG)
+
+## Objective 3: Add an Additional Map
+
+* A third map tile layer is created 
+* The third map is added to the overlay object 
+* All the earthquake data and tectonic plate data are displayed on the all maps of the webpage 
+
+![](https://github.com/DougUOT/Mapping_Earthquakes/blob/main/Resources/Images/Capture13_3_1.PNG)
+
+Tectonic Plate, Earthquakes and major Earthquakes layer with marker and information such as Magnitude and Location (Dark layer view):
+![](https://github.com/DougUOT/Mapping_Earthquakes/blob/main/Resources/Images/Capture13_3_2.PNG)
+
