@@ -71,3 +71,6 @@ Tectonic Plate, Earthquakes and major Earthquakes layer (Satellite layer view):
 Tectonic Plate, Earthquakes and major Earthquakes layer with marker and information such as Magnitude and Location (Dark layer view):
 ![](https://github.com/DougUOT/Mapping_Earthquakes/blob/main/Resources/Images/Capture13_3_2.PNG)
 
+** Note **
+
+In order to open the [index.html](https://github.com/DougUOT/Mapping_Earthquakes/blob/main/Earthquake_Challenge/index.html), it is necessary open this file in a local host, such as Python server (python -m http.server) and also It is essential to have a file called config.js and an API Key inside this file.
